@@ -37,5 +37,6 @@ def consult_user(id):
         cursor.execute(instruction)
         result = cursor.fetchall()
         return result
+    
     except MySQLError as ex:
         print(ex)
