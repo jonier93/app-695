@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+label {
+    position: absolute;
+    left: 40%;
+}
+
+input, textarea, a {
+    position: absolute;
+    left: 50%;
+    width: 15%;
+}
+
+textarea {
+    height: 10%;
+}
+
+label, input, button, a {
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    left: 49%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
